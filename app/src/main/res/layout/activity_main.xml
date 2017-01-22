@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+tools:context="com.example.oem.planzajec.MainActivity"
+android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pon"
+            android:text="Poniedziałek"
+            android:background="@android:color/holo_blue_dark"
+            android:textSize="14sp"
+            android:layout_marginBottom="15dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/wto"
+            android:text="Wtorek"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_marginBottom="15dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sro"
+            android:text="Środa"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_marginBottom="15dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/czw"
+            android:text="Czwartek"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_marginBottom="15dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/piat"
+            android:text="Piątek"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_marginBottom="15dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
